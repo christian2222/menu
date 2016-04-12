@@ -26,19 +26,24 @@ respond.min.js"></script>
 
     <h2>vertical Buttons with Button inner dropdown</h2>
     <div class="btn-group-vertical" data-toggle="buttons">
-        <label class="btn btn-primary" type="button" data-toggle="collapse" data-target="#divOne" id='labelOne'>
-		<input type="radio" name="options" id="option1">Option 1
+        <label class="btn btn-primary" type="button" data-toggle="collapse" data-target="#divOne"
+        id='labelOne'>
+            <input type="radio" name="options" id="option1">Option 1
         </label>
 
-	<div id="divOne" class="collapse">
-		<div class="btn-group-vertical" data-toggle="buttons">
-			<label class="btn btn-primary" type="button">
-				<input type="radio" name="nameX" id="button100">Button  to press, if you<br>wish</input>
-        		</label>
+        <div id="divOne" class="collapse">
+            <div class="btn-group-vertical" data-toggle="buttons">
+                <label class="btn btn-primary" type="button">
+                    <input type="radio" name="nameX" id="button100">Button to press, if you
+                    <br>wish</input>
+                </label>
 
-		</div> <!-- btn-group-vertical -->
-	</div> <!--divOne-->
-        <label class="btn btn-primary" type="button" data-toggle="collapse" data-target="#divTwo" id='labelTwo'>
+            </div>
+            <!-- btn-group-vertical -->
+        </div>
+        <!--divOne-->
+        <label class="btn btn-primary" type="button" data-toggle="collapse" data-target="#divTwo"
+        id='labelTwo'>
             <input type="radio" name="options" id="option2">Option 2
         </label>
         <!-- working
@@ -51,44 +56,48 @@ respond.min.js"></script>
                 <label class="btn btn-primary" type="button">
                     <input type="radio" name="nameone" id="name1">Name 1</input>
                 </label>
-		<label class="btn btn-primary" type="button">
+                <label class="btn btn-primary" type="button">
                     <input type="radio" name="nametwo" id="name2">Name 2</input>
                 </label>
 
 
-<label class="btn btn-primary" type="button">
+                <label class="btn btn-primary" type="button">
                     <input type="radio" name="namethree" id="name3">Name 3</input>
                 </label>
                 Hello too?
-	    </div><!-- btn-group-vertical -->
-	</div><!-- testddd -->
-            <!-- delete until here -->
-            <label class="btn btn-primary" type="button" data-toggle="collapse" data-target="#divThree" id='labelThree'>
-                <input type="radio" name="options" id="hallo">Option 3
-            </label>
-	    <div id="divThree" class="collapse">
-		    <div class="btn-group-vertical" data-toggle="buttons">
-			    <label class="btn btn-primary" type="button">
-				    <input type="radio" name="derda" id="opt2">huhu</input>
-			    </label>
-			    <label class="btn btn-primary" type="button">
-				    <input type="radio" name="derda" id="opt21">huhu</input>
-			</label>
-			<label class="btn btn-primary" type="button">
-				    <input type="radio" name="derda" id="opt22">huhu</input>
-			</label>
-		    Servous!
-		    </div><!-- btn&#45;group&#45;vertical -->
-	    </div>
+            </div>
+            <!-- btn-group-vertical -->
         </div>
-	<h1>Ende</h1>
-        <!-- the script order is important: jQuery must have been loaded before bootstrap.min.js -->
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="jquery-2.2.2.js"></script>
-        <!-- Include all compiled plugins (below), or include individual
+        <!-- testddd -->
+        <!-- delete until here -->
+        <label class="btn btn-primary" type="button" data-toggle="collapse" data-target="#divThree"
+        id='labelThree'>
+            <input type="radio" name="options" id="hallo">Option 3
+        </label>
+        <div id="divThree" class="collapse">
+            <div class="btn-group-vertical" data-toggle="buttons">
+                <label class="btn btn-primary" type="button">
+                    <input type="radio" name="derda" id="opt2">huhu</input>
+                </label>
+                <label class="btn btn-primary" type="button">
+                    <input type="radio" name="derda" id="opt21">huhu</input>
+                </label>
+                <label class="btn btn-primary" type="button">
+                    <input type="radio" name="derda" id="opt22">huhu</input>
+                </label>
+                Servous!
+            </div>
+            <!-- btn&#45;group&#45;vertical -->
+        </div>
+    </div>
+    <h1>Ende</h1>
+    <!-- the script order is important: jQuery must have been loaded before bootstrap.min.js -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="jquery-2.2.2.js"></script>
+    <!-- Include all compiled plugins (below), or include individual
 files as needed -->
-        <script src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="threeDropdowns.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="threeDropdowns.js"></script>
 </body>
 
 </html>
