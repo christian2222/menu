@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type='text/javascript'
+  src='http://code.jquery.com/jquery-1.9.1.js'></script>
+<link rel="stylesheet" type="text/css"
+  href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css">
+<script type='text/javascript'
+  src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script type='text/javascript'>//<![CDATA[ 
+$(window).load(function(){<!--  www  .  j  av a 2 s.co  m-->
+$(document).ready(function () {
+    $("#btn-id").button();
+    $("#btn-id").click(function () {
+        $(this).button('loading');
+        setTimeout(function () {
+            $("#btn-id").button('reset').addClass("btn-success");
+        }, 2000);
+    });
+});
+});//]]>  
+</script>
+</head>
+<body>
+  <p>
+    <button id="btn-id" class="btn btn-large btn-primary" type="button"
+      data-loading-text="loading stuff...">Click Me</button>
+  </p>
+</body>
+</html>
