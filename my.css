@@ -1,0 +1,10 @@
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+   /* if width < screen-sm-max execute the following code lines here */
+
+
+}
+
+.gridcols {
+  background-color: #dedef8;
+  box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;
+}
